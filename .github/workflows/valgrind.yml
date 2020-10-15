@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        g++ linux_miniproject/Electronics.cpp -lpthread -o linux_miniproject/all.out
-        valgrind ./linux_miniproject/all.out
+        g++ ElectronicsProj/Electronics.cpp -lpthread -o ElectronicsProj/all.out
+        valgrind ./ElectronicsProj/all.out
